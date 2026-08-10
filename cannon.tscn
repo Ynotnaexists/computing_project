@@ -1,24 +1,21 @@
-[gd_scene load_steps=4 format=3 uid="uid://l1jtamuf46"]
+[gd_scene format=3 uid="uid://l1jtamuf46"]
 
 [ext_resource type="Script" uid="uid://cs56rm6df3j3o" path="res://cannon.gd" id="1_23j6s"]
-[ext_resource type="Texture2D" uid="uid://d376hxdyehfrv" path="res://cannon.svg" id="2_72ky0"]
+[ext_resource type="Texture2D" uid="uid://jnyh6p4pm1t0" path="res://resources/cannon/cannon.svg" id="2_23j6s"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_23j6s"]
-radius = 39.08
+radius = 757.095
 
-[node name="Cannon" type="Node2D"]
+[node name="Cannon" type="Node2D" unique_id=209231437]
 
-[node name="Cannon" type="RigidBody2D" parent="."]
-position = Vector2(565, 625)
-scale = Vector2(2, 2)
-gravity_scale = 0.0
+[node name="Cannon" type="Area2D" parent="." unique_id=19621881]
+position = Vector2(576, 648)
+scale = Vector2(0.1, 0.1)
 script = ExtResource("1_23j6s")
 
-[node name="CannonSprite" type="Sprite2D" parent="Cannon"]
-position = Vector2(0, -41.5)
-scale = Vector2(0.05, 0.05)
-texture = ExtResource("2_72ky0")
+[node name="CannonSprite" type="Sprite2D" parent="Cannon" unique_id=1654433406]
+position = Vector2(-0.499878, -817.5)
+texture = ExtResource("2_23j6s")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Cannon"]
-position = Vector2(0, -0.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cannon" unique_id=640699074]
 shape = SubResource("CircleShape2D_23j6s")

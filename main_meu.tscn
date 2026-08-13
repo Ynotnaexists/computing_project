@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://dwaxewa0mhukd"]
 
-[ext_resource type="Script" uid="uid://dntslyr25kb4" path="res://mainmenublablabla.gd" id="1_ld7j1"]
-[ext_resource type="Texture2D" uid="uid://bicybugxkmpn1" path="res://circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp" id="2_bt23f"]
+[ext_resource type="Script" uid="uid://dntslyr25kb4" path="res://main_menu.gd" id="1_ld7j1"]
+[ext_resource type="Texture2D" uid="uid://bicybugxkmpn1" path="res://resources/start_menu/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp" id="2_bt23f"]
 [ext_resource type="Script" uid="uid://cxm1d4s8umdp3" path="res://button.gd" id="3_abukq"]
-[ext_resource type="FontFile" uid="uid://hkh1t5cftmn1" path="res://Kablammo-Regular-VariableFont_MORF.ttf" id="4_xmfq1"]
+[ext_resource type="FontFile" uid="uid://hkh1t5cftmn1" path="res://resources/start_menu/Kablammo-Regular-VariableFont_MORF.ttf" id="4_xmfq1"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7i6ia"]
 bg_color = Color(0.14901961, 0.6117647, 0.77254903, 1)
@@ -113,7 +113,7 @@ _data = {
 &"background": SubResource("Animation_7i6ia")
 }
 
-[node name="Control" type="Control" unique_id=469655025]
+[node name="MainMenu" type="Control" unique_id=469655025]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -169,8 +169,8 @@ libraries/ = SubResource("AnimationLibrary_bfmj5")
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="." unique_id=543010092]
 libraries/ = SubResource("AnimationLibrary_xmfq1")
 
-[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
 [connection signal="mouse_entered" from="Button" to="." method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
 [connection signal="mouse_exited" from="Button" to="." method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

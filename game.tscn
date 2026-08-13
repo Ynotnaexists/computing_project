@@ -1,11 +1,8 @@
 [gd_scene format=3 uid="uid://djl4e8om1jb1g"]
 
-[ext_resource type="PackedScene" uid="uid://dwaxewa0mhukd" path="res://mainmenublablabla.tscn" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://l1jtamuf46" path="res://cannon.tscn" id="2_h2yge"]
 
-[node name="Main" type="Node2D" unique_id=1298293047]
-
-[node name="Control" parent="." unique_id=469655025 instance=ExtResource("1_0xm2m")]
+[node name="Game" type="Node2D" unique_id=1298293047]
 
 [node name="Cannon" parent="." unique_id=209231437 instance=ExtResource("2_h2yge")]
 position = Vector2(576, 645)

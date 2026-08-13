@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://hkh1t5cftmn1"
-path="res://.godot/imported/Kablammo-Regular-VariableFont_MORF.ttf-e667b37596b290d03321dc595bef7294.fontdata"
+path="res://.godot/imported/Kablammo-Regular-VariableFont_MORF.ttf-8534f6a6e1038b429645cdb5e813ae32.fontdata"
 
 [deps]
 
-source_file="res://Kablammo-Regular-VariableFont_MORF.ttf"
-dest_files=["res://.godot/imported/Kablammo-Regular-VariableFont_MORF.ttf-e667b37596b290d03321dc595bef7294.fontdata"]
+source_file="res://resources/start_menu/Kablammo-Regular-VariableFont_MORF.ttf"
+dest_files=["res://.godot/imported/Kablammo-Regular-VariableFont_MORF.ttf-8534f6a6e1038b429645cdb5e813ae32.fontdata"]
 
 [params]
 

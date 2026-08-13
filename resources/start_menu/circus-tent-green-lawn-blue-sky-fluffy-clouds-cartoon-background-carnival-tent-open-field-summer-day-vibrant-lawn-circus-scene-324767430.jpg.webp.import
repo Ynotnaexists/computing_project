@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bicybugxkmpn1"
-path="res://.godot/imported/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp-e93f483b2e08d7c15716feda2260f54f.ctex"
+path="res://.godot/imported/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp-9b3175c4692af87e8109168257858e2b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp"
-dest_files=["res://.godot/imported/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp-e93f483b2e08d7c15716feda2260f54f.ctex"]
+source_file="res://resources/start_menu/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp"
+dest_files=["res://.godot/imported/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp-9b3175c4692af87e8109168257858e2b.ctex"]
 
 [params]
 

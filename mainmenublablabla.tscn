@@ -1,0 +1,176 @@
+[gd_scene format=3 uid="uid://dwaxewa0mhukd"]
+
+[ext_resource type="Script" uid="uid://dntslyr25kb4" path="res://mainmenublablabla.gd" id="1_ld7j1"]
+[ext_resource type="Texture2D" uid="uid://bicybugxkmpn1" path="res://circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp" id="2_bt23f"]
+[ext_resource type="Script" uid="uid://cxm1d4s8umdp3" path="res://button.gd" id="3_abukq"]
+[ext_resource type="FontFile" uid="uid://hkh1t5cftmn1" path="res://Kablammo-Regular-VariableFont_MORF.ttf" id="4_xmfq1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7i6ia"]
+bg_color = Color(0.14901961, 0.6117647, 0.77254903, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xmfq1"]
+bg_color = Color(0.12156863, 0.50980395, 0.79607844, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bfmj5"]
+bg_color = Color(0.14901961, 0.5921569, 0.77254903, 1)
+
+[sub_resource type="Animation" id="Animation_bt23f"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(189, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_abukq"]
+resource_name = "title_bobbbbbby"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 3.0333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(220, 20), Vector2(220, 10), Vector2(220, 20)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bfmj5"]
+_data = {
+&"RESET": SubResource("Animation_bt23f"),
+&"title_bobbbbbby": SubResource("Animation_abukq")
+}
+
+[sub_resource type="Animation" id="Animation_bfmj5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(32, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TextureRect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_7i6ia"]
+resource_name = "background"
+length = 20.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 0,
+"values": []
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TextureRect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 10, 20),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.1, 1.1), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xmfq1"]
+_data = {
+&"RESET": SubResource("Animation_bfmj5"),
+&"background": SubResource("Animation_7i6ia")
+}
+
+[node name="Control" type="Control" unique_id=469655025]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -32.0
+offset_right = -32.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ld7j1")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=618514766]
+layout_mode = 0
+offset_left = 32.0
+offset_right = 1184.0
+offset_bottom = 648.0
+texture = ExtResource("2_bt23f")
+
+[node name="Label" type="Label" parent="." unique_id=117124142]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.007
+anchor_bottom = 0.009000001
+offset_left = 189.0
+offset_top = 1.0
+offset_right = 759.936
+offset_bottom = 100.168
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4_xmfq1")
+theme_override_font_sizes/font_size = 80
+text = "Canon Shooter"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=80812964]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 134.0
+offset_right = 609.0
+offset_bottom = 244.0
+theme_override_colors/font_color = Color(0, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4_xmfq1")
+theme_override_font_sizes/font_size = 80
+theme_override_styles/normal = SubResource("StyleBoxFlat_7i6ia")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_xmfq1")
+theme_override_styles/hover = SubResource("StyleBoxFlat_bfmj5")
+text = "Start"
+script = ExtResource("3_abukq")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1654811892]
+libraries/ = SubResource("AnimationLibrary_bfmj5")
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="." unique_id=543010092]
+libraries/ = SubResource("AnimationLibrary_xmfq1")
+
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_entered" from="Button" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -6,16 +6,13 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_23j6s"]
 radius = 757.095
 
-[node name="Cannon" type="Node2D" unique_id=209231437]
-
-[node name="Cannon" type="Area2D" parent="." unique_id=19621881]
-position = Vector2(576, 648)
+[node name="Cannon" type="Area2D" unique_id=414393823]
 scale = Vector2(0.1, 0.1)
 script = ExtResource("1_23j6s")
 
-[node name="CannonSprite" type="Sprite2D" parent="Cannon" unique_id=1654433406]
+[node name="CannonSprite" type="Sprite2D" parent="." unique_id=59560389]
 position = Vector2(-0.499878, -817.5)
 texture = ExtResource("2_23j6s")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Cannon" unique_id=640699074]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=7067557]
 shape = SubResource("CircleShape2D_23j6s")

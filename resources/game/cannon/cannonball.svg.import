@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ca8d4js6f5dya"
-path="res://.godot/imported/cannonball.svg-41c9a499dab2d247400d4e39e65dfeee.ctex"
+path="res://.godot/imported/cannonball.svg-09b3c704f014afd2cafea7f59a07bfef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/cannon/cannonball.svg"
-dest_files=["res://.godot/imported/cannonball.svg-41c9a499dab2d247400d4e39e65dfeee.ctex"]
+source_file="res://resources/game/cannon/cannonball.svg"
+dest_files=["res://.godot/imported/cannonball.svg-09b3c704f014afd2cafea7f59a07bfef.ctex"]
 
 [params]
 

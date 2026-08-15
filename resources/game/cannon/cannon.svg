@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1558.9664"
+   height="3144.9045"
+   viewBox="0 0 412.47652 832.0893"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="cannon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="0.20452273"
+     inkscape:cx="916.76852"
+     inkscape:cy="1156.3507"
+     inkscape:window-width="1648"
+     inkscape:window-height="1128"
+     inkscape:window-x="849"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="cannon"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-379.64967,-221.22442)">
+    <rect
+       style="fill:#666666;stroke-width:0.264583"
+       id="rect3"
+       width="260.95111"
+       height="499.2536"
+       x="455.41238"
+       y="240.91884"
+       inkscape:label="cannon_barrel"
+       ry="35.449963" />
+    <ellipse
+       style="fill:#333333;stroke-width:0.264583"
+       id="path1"
+       cx="585.88794"
+       cy="854.21173"
+       rx="206.23827"
+       ry="199.10199"
+       inkscape:label="pivot" />
+    <path
+       style="fill:#494949;stroke-width:0.264583;fill-opacity:1"
+       d="m 669.52789,711.25539 c 53.31518,20.31102 68.23183,101.51664 68.23183,101.51664 -77.93648,-102.59288 -125.44265,-82.45565 -197.99385,-112.95784 31.70142,-5.16005 65.8471,-14.67419 129.76202,11.4412 z"
+       id="path3"
+       sodipodi:nodetypes="cccc"
+       inkscape:label="shine" />
+    <rect
+       style="fill:#333333;stroke-width:0.260983;fill-opacity:1"
+       id="rect4"
+       width="283.5997"
+       height="38.404121"
+       x="444.0881"
+       y="235.99524"
+       ry="6.8930573"
+       inkscape:label="cannon_tip" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path15"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3"
+       inkscape:connection-end="#path1" />
+  </g>
+</svg>

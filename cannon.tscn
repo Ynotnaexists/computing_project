@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://l1jtamuf46"]
 
 [ext_resource type="Script" uid="uid://cs56rm6df3j3o" path="res://cannon.gd" id="1_23j6s"]
-[ext_resource type="Texture2D" uid="uid://jnyh6p4pm1t0" path="res://resources/cannon/cannon.svg" id="2_23j6s"]
+[ext_resource type="Texture2D" uid="uid://jnyh6p4pm1t0" path="res://resources/game/cannon/cannon.svg" id="2_23j6s"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_23j6s"]
 radius = 757.095

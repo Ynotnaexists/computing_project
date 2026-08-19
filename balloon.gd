@@ -12,4 +12,5 @@ func _on_area_entered(area):
 	if area.is_in_group("cannonballs"):
 		area.queue_free()
 		queue_free()
-		
+		var game := get_tree().root.get_node("YourMainScene/Game")
+		game.add_points(1)

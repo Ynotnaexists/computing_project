@@ -110,6 +110,8 @@ _data = {
 &"background": SubResource("Animation_7i6ia")
 }
 
+[sub_resource type="AudioStream" id="AudioStream_4kgf7"]
+
 [node name="Control" type="Control" unique_id=469655025]
 layout_mode = 3
 anchors_preset = 15
@@ -161,6 +163,9 @@ libraries/ = SubResource("AnimationLibrary_bfmj5")
 
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="." unique_id=543010092]
 libraries/ = SubResource("AnimationLibrary_xmfq1")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1794075286]
+stream = SubResource("AudioStream_4kgf7")
 
 [connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
 [connection signal="mouse_entered" from="Button" to="." method="_on_mouse_entered"]

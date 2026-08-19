@@ -1,9 +1,6 @@
 [gd_scene format=3 uid="uid://bnrn5kbttq7nx"]
 
-[ext_resource type="Script" path="res://mainmenublablabla.gd" id="1_ld7j1"]
-[ext_resource type="Texture2D" path="res://circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp" id="2_bt23f"]
 [ext_resource type="Script" uid="uid://cxm1d4s8umdp3" path="res://button.gd" id="3_abukq"]
-[ext_resource type="FontFile" path="res://Kablammo-Regular-VariableFont_MORF.ttf" id="4_xmfq1"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7i6ia"]
 bg_color = Color(0.14901961, 0.6117647, 0.77254903, 1)
@@ -122,14 +119,12 @@ offset_left = -32.0
 offset_right = -32.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ld7j1")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=618514766]
 layout_mode = 0
 offset_left = 32.0
 offset_right = 1184.0
 offset_bottom = 648.0
-texture = ExtResource("2_bt23f")
 
 [node name="Label" type="Label" parent="." unique_id=117124142]
 layout_mode = 1
@@ -139,9 +134,8 @@ anchor_bottom = 0.009000001
 offset_left = 189.0
 offset_top = 1.0
 offset_right = 759.936
-offset_bottom = 100.168
+offset_bottom = 105.168
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("4_xmfq1")
 theme_override_font_sizes/font_size = 80
 text = "Canon Shooter"
 horizontal_alignment = 1
@@ -155,7 +149,6 @@ offset_bottom = 244.0
 theme_override_colors/font_color = Color(0, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(0, 1, 1, 1)
 theme_override_colors/font_hover_color = Color(0, 1, 1, 1)
-theme_override_fonts/font = ExtResource("4_xmfq1")
 theme_override_font_sizes/font_size = 80
 theme_override_styles/normal = SubResource("StyleBoxFlat_7i6ia")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_xmfq1")

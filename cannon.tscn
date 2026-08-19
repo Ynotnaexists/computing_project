@@ -7,7 +7,7 @@
 radius = 757.095
 
 [node name="Cannon" type="Area2D" unique_id=414393823]
-scale = Vector2(0.1, 0.1)
+scale = Vector2(0.05826349, 0.05683238)
 script = ExtResource("1_23j6s")
 
 [node name="CannonSprite" type="Sprite2D" parent="." unique_id=59560389]

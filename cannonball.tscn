@@ -6,7 +6,8 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_k1y7j"]
 radius = 261.2317
 
-[node name="Cannonball" type="Area2D" unique_id=667759147 groups=["Canonballs"]]
+[node name="Cannonball" type="Area2D" unique_id=667759147 groups=["cannonball"]]
+
 scale = Vector2(0.1, 0.1)
 script = ExtResource("1_246s8")
 

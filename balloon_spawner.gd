@@ -1,22 +1,21 @@
 extends Node2D
 
 @export var balloon_scene: PackedScene
-@export var spawn_time := 5.0
+@export var spawn_time: int = 5.0
+@onready var TIMER: Timer = $Timer
 
-func _ready():
-	$Timer.wait_time = spawn_time
-	$Timer.timeout.connect(spawn_balloon)
-	$Timer.start()
+func _ready() -> void:
+	TIMER.wait_time = spawn_time
+	TIMER.timeout.connect(spawn_balloon)
+	TIMER.start()
 
-func spawn_balloon():
-	var balloon = balloon_scene.instantiate()
+func spawn_balloon() -> void:
+	var balloon: Area2D = balloon_scene.instantiate()
+	var screen_size: Vector2 = get_viewport_rect().size
 	
-	var screen_width = get_viewport_rect().size.x
-	
-	# Random X position across the top
 	balloon.position = Vector2(
-		randf_range(0, screen_width),
-		-50
+		randf_range(0, screen_size.x),
+		screen_size.y
 	)
 	
 	get_parent().add_child(balloon)

@@ -14,6 +14,3 @@ func _process(delta: float) -> void:
 	var screen = get_viewport_rect()
 	if not screen.has_point(global_position):
 		queue_free()
-
-func _on_area_entered(area):
-	print("I HIT SOMETHING: ", area.name)

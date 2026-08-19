@@ -7,6 +7,7 @@
 radius = 261.2317
 
 [node name="Cannonball" type="Area2D" unique_id=667759147 groups=["cannonball"]]
+
 scale = Vector2(0.1, 0.1)
 script = ExtResource("1_246s8")
 

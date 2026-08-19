@@ -6,12 +6,12 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_k1y7j"]
 radius = 261.2317
 
-[node name="Cannonball" type="Area2D" unique_id=667759147 groups=["canonballs"]]
+[node name="Cannonball" type="Area2D" unique_id=667759147 groups=["cannonball"]]
 scale = Vector2(0.1, 0.1)
 script = ExtResource("1_246s8")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=92065601 groups=["canonballs"]]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=92065601]
 texture = ExtResource("2_bdwag")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=30192570 groups=["canonballs"]]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=30192570]
 shape = SubResource("CircleShape2D_k1y7j")

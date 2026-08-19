@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b23624b1820x3"
-path="res://.godot/imported/simple-red-balloon-with-wavy-string-vector.jpg-63d7858647a4b4eff9d3ec15f801b773.ctex"
+uid="uid://bfw15bq0ogtu4"
+path="res://.godot/imported/red-balloon-with-white-highlights-and-black-string-vector-removebg-preview.png-5afd85fd5738aee09884a2cb12dc7f2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://simple-red-balloon-with-wavy-string-vector.jpg"
-dest_files=["res://.godot/imported/simple-red-balloon-with-wavy-string-vector.jpg-63d7858647a4b4eff9d3ec15f801b773.ctex"]
+source_file="res://resources/game/balloon/red-balloon-with-white-highlights-and-black-string-vector-removebg-preview.png"
+dest_files=["res://.godot/imported/red-balloon-with-white-highlights-and-black-string-vector-removebg-preview.png-5afd85fd5738aee09884a2cb12dc7f2c.ctex"]
 
 [params]
 

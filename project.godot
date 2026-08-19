@@ -19,6 +19,10 @@ run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 <<<<<<<HEADrun/main_scene="uid://l1jtamuf46"
 
+[global_group]
+
+cannonball=""
+
 [input]
 
 rotate_left={

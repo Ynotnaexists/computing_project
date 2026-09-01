@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://r31fqchmed55"]
 
-[ext_resource type="Texture2D" uid="uid://bfw15bq0ogtu4" path="res://resources/game/balloon/red-balloon-with-white-highlights-and-black-string-vector-removebg-preview.png" id="1_n2rxu"]
 [ext_resource type="Script" uid="uid://c3oo73r6m3oyp" path="res://balloon.gd" id="1_r345k"]
+[ext_resource type="Texture2D" uid="uid://byr6wxeh6qicc" path="res://pngtree-cartoon-simple-blue-balloon-png-image_2353553-removebg-preview.png" id="2_r345k"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4kgf7"]
 
@@ -11,7 +11,8 @@ gravity = 4096.0
 script = ExtResource("1_r345k")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2055489019]
-texture = ExtResource("1_n2rxu")
+scale = Vector2(2, 2)
+texture = ExtResource("2_r345k")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1912795290]
 shape = SubResource("CircleShape2D_4kgf7")

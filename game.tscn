@@ -5,6 +5,8 @@
 [ext_resource type="Script" uid="uid://bhl3fvn4ox0pe" path="res://balloon_spawner.gd" id="2_feb5d"]
 [ext_resource type="PackedScene" uid="uid://l1jtamuf46" path="res://cannon.tscn" id="2_h2yge"]
 [ext_resource type="PackedScene" uid="uid://r31fqchmed55" path="res://balloon.tscn" id="3_fc0e3"]
+[ext_resource type="AudioStream" uid="uid://dwp3yq0u6ih87" path="res://slimeyfox-circus-di-spadafora-479685.mp3" id="6_eow3j"]
+[ext_resource type="Script" uid="uid://d0ia714feg1v2" path="res://audio_stream_player.gd" id="7_j5wjh"]
 
 [node name="Game" type="Node2D" unique_id=1298293047]
 script = ExtResource("1_fc0e3")
@@ -34,3 +36,7 @@ texture = ExtResource("2_e2o6t")
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Score = 0"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1608659495]
+stream = ExtResource("6_eow3j")
+script = ExtResource("7_j5wjh")

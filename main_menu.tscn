@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bicybugxkmpn1" path="res://resources/start_menu/circus-tent-green-lawn-blue-sky-fluffy-clouds-cartoon-background-carnival-tent-open-field-summer-day-vibrant-lawn-circus-scene-324767430.jpg.webp" id="2_bt23f"]
 [ext_resource type="Script" uid="uid://cxm1d4s8umdp3" path="res://button.gd" id="3_abukq"]
 [ext_resource type="FontFile" uid="uid://hkh1t5cftmn1" path="res://resources/start_menu/Kablammo-Regular-VariableFont_MORF.ttf" id="4_xmfq1"]
+[ext_resource type="AudioStream" uid="uid://he5q1r7trmfg" path="res://openmindaudio-vlog-soft-background-music-silver-thread-short-preview-497598.mp3" id="5_nlkkf"]
+[ext_resource type="Script" uid="uid://d0ia714feg1v2" path="res://audio_stream_player.gd" id="6_nlkkf"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7i6ia"]
 bg_color = Color(0.14901961, 0.6117647, 0.77254903, 1)
@@ -168,6 +170,10 @@ libraries/ = SubResource("AnimationLibrary_bfmj5")
 
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="." unique_id=543010092]
 libraries/ = SubResource("AnimationLibrary_xmfq1")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1130946105]
+stream = ExtResource("5_nlkkf")
+script = ExtResource("6_nlkkf")
 
 [connection signal="mouse_entered" from="Button" to="." method="_on_mouse_entered"]
 [connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]

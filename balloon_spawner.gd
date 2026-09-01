@@ -1,7 +1,7 @@
 extends Node2D
 
 @export var balloon_scene: PackedScene
-@export var spawn_time: int = 5.0
+@export var spawn_time: int = 1
 @onready var TIMER: Timer = $Timer
 
 func _ready() -> void:

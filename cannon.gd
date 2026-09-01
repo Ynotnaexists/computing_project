@@ -1,7 +1,7 @@
 extends Area2D
 
 @export var rotation_speed: int = 150
-@export var cooldown_time: int = 50
+@export var cooldown_time: int = 10
 const CANNONBALL = preload("res://cannonball.tscn")
 
 func _physics_process(delta: float) -> void:

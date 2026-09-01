@@ -26,4 +26,4 @@ func _on_button_mouse_exited() -> void:
 	pass # Replace with function body.
 
 func _on_button_pressed() -> void:
-	get_tree().change_scene_to_file("res://game.tscn")
+	get_tree().change_scene_to_file("res://Game/game.tscn")

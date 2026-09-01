@@ -1,18 +1,18 @@
 [gd_scene format=3 uid="uid://l1jtamuf46"]
 
-[ext_resource type="Script" uid="uid://cs56rm6df3j3o" path="res://cannon.gd" id="1_23j6s"]
-[ext_resource type="Texture2D" uid="uid://jnyh6p4pm1t0" path="res://resources/game/cannon/cannon.svg" id="2_23j6s"]
+[ext_resource type="Script" uid="uid://cs56rm6df3j3o" path="res://Game/Cannon/cannon.gd" id="1_qt1o2"]
+[ext_resource type="Texture2D" uid="uid://jnyh6p4pm1t0" path="res://resources/game/cannon/cannon.svg" id="2_g75u5"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_23j6s"]
 radius = 757.095
 
 [node name="Cannon" type="Area2D" unique_id=414393823]
 scale = Vector2(0.05826349, 0.05683238)
-script = ExtResource("1_23j6s")
+script = ExtResource("1_qt1o2")
 
 [node name="CannonSprite" type="Sprite2D" parent="." unique_id=59560389]
 position = Vector2(-0.499878, -817.5)
-texture = ExtResource("2_23j6s")
+texture = ExtResource("2_g75u5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=7067557]
 shape = SubResource("CircleShape2D_23j6s")

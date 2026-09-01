@@ -2,6 +2,10 @@ extends Area2D
 @export var speed: float = 7
 @export var drag: float = 0.95
 var velocity: Vector2 = Vector2(randf_range(-speed/4, speed/4), speed)
+var game: Node2D
+
+func _ready() -> void:
+	game = get_tree().current_scene
 
 func _process(delta) -> void:
 	velocity *= pow(drag, delta)
@@ -16,12 +20,12 @@ func _process(delta) -> void:
 		position.x = viewport_size.x
 		velocity.x = -velocity.x
 
-	if position.y > viewport_size.y + 1000:
+	if position.y > viewport_size.y + 10:
 		queue_free()
+		game.remove_lives(1)
+		
 
 func _on_area_entered(area):
 	if area.is_in_group("cannonball"):
-		area.queue_free()
 		queue_free()
-		var game := get_tree().current_scene
 		game.add_points(1)

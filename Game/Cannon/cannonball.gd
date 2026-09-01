@@ -12,5 +12,5 @@ func _process(delta: float) -> void:
 	speed *= 0.99
 	
 	var screen = get_viewport_rect()
-	if not screen.has_point(global_position):
+	if not screen.grow(1000).has_point(global_position):
 		queue_free()

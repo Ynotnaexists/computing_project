@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://byr6wxeh6qicc" path="res://pngtree-cartoon-simple-blue-balloon-png-image_2353553-removebg-preview.png" id="2_r345k"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4kgf7"]
+radius = 175.0714
 
 [node name="Balloon" type="Area2D" unique_id=1718604571]
 scale = Vector2(0.2, 0.2)
@@ -15,6 +16,7 @@ scale = Vector2(2, 2)
 texture = ExtResource("2_r345k")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1912795290]
+position = Vector2(0, -129.99998)
 shape = SubResource("CircleShape2D_4kgf7")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
